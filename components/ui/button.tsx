@@ -25,6 +25,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
           // this classname allows me to override classes if desired
           className
         )}
+        disabled={disabled}
         ref={ref}
         {...props}
       >
